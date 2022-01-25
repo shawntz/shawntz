@@ -14,4 +14,4 @@ Don't hesitate to reach out if there's something cool you'd like to collaborate 
 - 📫 Reach me: [twitter.com/shawnschwartz_](https://twitter.com/shawnschwartz_)
 - ⚡ Fun fact: I've played ultimate frisbee for over 10 years
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=shawntylerschwartz&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=shawntylerschwartz&langs_count=10&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
