@@ -10,6 +10,6 @@ before stanford, i completed my master's and bachelor's degrees at ucla (go brui
 - 🔬 [google scholar profile](https://scholar.google.com/citations?user=xII63_wAAAAJ&hl=en)
 - 🎓 [curriculum vitae](https://shawnschwartz.com/cv.pdf)
 - 📫 reach me on x [@shawntschwartz](https://x.com/shawntschwartz) or [shawn.t.schwartz@gmail.com](shawn.t.schwartz@gmail.com)
-- ⚡ fun fact: i've played ultimate frisbee for over 10 years. also, i root for the golden state warriors and try my best to watch every game.
+- ⚡ fun facts: i've played ultimate frisbee for over 10 years. i also root for the gs warriors and try my best to watch every game if possible!
 
 <img height=250 width=1000 src="https://github-readme-stats.vercel.app/api/top-langs/?username=shawntschwartz&langs_count=10&layout=compact" alt="shawn schwartz's github language stats" /></a>
