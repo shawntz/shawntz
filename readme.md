@@ -12,4 +12,4 @@ before stanford, i completed my master's and bachelor's degrees at ucla (go brui
 - 🔬 [google scholar profile](https://scholar.google.com/citations?user=xII63_wAAAAJ&hl=en&oi=ao)
 - 🎓 [curriculum vitae](https://shawnschwartz.com/cv.pdf)
 
-<img height=250 width=1000 src="https://github-readme-stats.vercel.app/api/top-langs/?username=shawntschwartz&langs_count=10&layout=compact" alt="shawn schwartz's github language stats" /></a>
+<img height=250 width=1000 src="https://github-readme-stats.vercel.app/api/top-langs/?username=shawntz&langs_count=10&layout=compact" alt="shawn schwartz's github language stats" /></a>
