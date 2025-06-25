@@ -15,8 +15,8 @@ before stanford, i completed my master's and bachelor's degrees at ucla (go brui
 <!-- <img height=250 width=1000 src="https://github-readme-stats.vercel.app/api/top-langs/?username=shawntz&langs_count=10&layout=compact" alt="shawn schwartz's github language stats" /></a> -->
 
 <a href="https://github.com/shawntz">
-  <img height=225 align="center" src="https://github-readme-stats.vercel.app/api?username=shawntz&show_icons=false&bg_color=30,e96443,904e95&title_color=fff&text_color=fff&rank_icon=github" />
+  <img height=190 align="center" src="https://github-readme-stats.vercel.app/api?username=shawntz&show_icons=false&bg_color=30,e96443,904e95&title_color=fff&text_color=fff&rank_icon=github" />
 </a>
 <a href="https://github.com/shawntz">
-  <img height=225 align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=shawntz&layout=compact&langs_count=10&card_width=300&bg_color=30,e96443,904e95&title_color=fff&text_color=fff&hide_progress=true" />
+  <img height=190 align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=shawntz&layout=compact&langs_count=10&card_width=300&bg_color=30,e96443,904e95&title_color=fff&text_color=fff&hide_progress=true" />
 </a>
