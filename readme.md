@@ -10,16 +10,17 @@
   
 - **Schwartz, S. T.**, Yang, H., Xue, A. M., & He, M. (2025). `eyeris`: A flexible, extensible, and reproducible pupillometry preprocessing framework in R. _bioRxiv_, 2025.06.01.657312. https://doi.org/10.1101/2025.06.01.657312
 
+- [see all publications on my google scholar page here.](https://scholar.google.com/citations?user=xII63_wAAAAJ&hl=en&oi=ao)
+
 ---
 
 &nbsp;&nbsp;<img width=30 align="center" src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/slack.png" />&nbsp;&nbsp;&nbsp;i'm also a phd quant research intern [@slackhq](https://github.com/slackhq). 
 
-
+---
 
 <!--cbefore stanford, i completed my master's and bachelor's degrees at ucla (go bruins!) in [computational biology](https://michaelalfaro.github.io/alfaro-lab/) where I worked on [high-throughput](https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/2041-210X.13712) phenoscaping pipelines as well as research in [human memory and education](https://castel.psych.ucla.edu). -->
 
 - ⚙️ daily languages/tools i use: `.R` `.py` `.sh` `.m` `.js` `.html` `.Rmd` `.tex`
-- 🔬 [google scholar profile](https://scholar.google.com/citations?user=xII63_wAAAAJ&hl=en&oi=ao)
 - 🎓 [curriculum vitae](https://shawnschwartz.com/cv.pdf)
 
 <!-- <img height=250 width=1000 src="https://github-readme-stats.vercel.app/api/top-langs/?username=shawntz&langs_count=10&layout=compact" alt="shawn schwartz's github language stats" /></a> -->
