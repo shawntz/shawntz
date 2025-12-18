@@ -4,6 +4,6 @@
 
 - **ML Data Engineer Intern @[Slack](https://github.com/slackhq)** - Built production ML pipelines serving 100K+ users
 - **Published `R` packages on CRAN**
-  - **[`eyeris`](https://shawnschwartz.com/eyeris)**: reproducible pupillometry preprocessing with 3000+ installs
-  - **[`charisma`](https://shawnschwartz.com/charisma)**: automated extraction and clustering of discrete color classes from digital images (under review)
+  - **[`eyeris`](https://shawnschwartz.com/eyeris)**: reproducible pupillometry preprocessing with 3,250+ installs
+  - **[`charisma`](https://shawnschwartz.com/charisma)**: automated extraction and clustering of discrete color classes from digital images
 - **PhD Research Engineer @[Stanford Memory Lab](https://github.com/WagnerLab)** - Production neuroimaging infrastructure & data pipelines
