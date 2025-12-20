@@ -1,9 +1,5 @@
 ## **Software Engineer & ML Researcher | PhD Candidate @[Stanford](https://profiles.stanford.edu/shawn-schwartz)**
 
-[Portfolio](https://shawnschwartz.com) | [LinkedIn](https://www.linkedin.com/in/shawnts/) | [Academic-Style CV](https://shawnschwartz.com/cv.pdf) | [Google Scholar](https://scholar.google.com/citations?user=xII63_wAAAAJ&hl=en&oi=ao) | [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=Schwartz+ST%5BAuthor%5D)
-
-- **ML Data Engineer Intern @[Slack](https://github.com/slackhq)** - Built production ML pipelines serving 100K+ users
-- **Published `R` packages on CRAN**
-  - **[`eyeris`](https://shawnschwartz.com/eyeris)**: reproducible pupillometry preprocessing with 3,250+ installs
-  - **[`charisma`](https://shawnschwartz.com/charisma)**: automated extraction and clustering of discrete color classes from digital images
-- **PhD Research Engineer @[Stanford Memory Lab](https://github.com/WagnerLab)** - Production neuroimaging infrastructure & data pipelines
+|  **Currently: PhD Research Engineer @[Stanford Memory Lab](https://github.com/WagnerLab)** <br> • Production neuroimaging infrastructure & data pipelines <br><br> **Previously: ML Data Engineer Intern @[Slack](https://github.com/slackhq)** <br> • Built production ML pipelines serving 100K+ users | ![Shawn's GitHub stats](https://github-readme-stats.vercel.app/api?username=shawntz&show_icons=true&theme=transparent&hide_border=true&show=reviews) |
+| :------------- | ------------- |
+| **Published `R` Packages on CRAN** <br> • **[`eyeris`](https://shawnschwartz.com/eyeris)**: reproducible pupillometry preprocessing <br> • **[`charisma`](https://shawnschwartz.com/charisma)**: automated color analysis of images  | [Portfolio](https://shawnschwartz.com) • [LinkedIn](https://www.linkedin.com/in/shawnts/) • [Academic-Style CV](https://shawnschwartz.com/cv.pdf) • [Google Scholar](https://scholar.google.com/citations?user=xII63_wAAAAJ&hl=en&oi=ao) • [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=Schwartz+ST%5BAuthor%5D) |
