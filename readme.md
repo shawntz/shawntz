@@ -3,12 +3,15 @@
 <table>
   <tr>
     <td>
-      <strong>Currently...<br>🔬 PhD Research Engineer @
+      <strong>Currently...<br>👨‍💻 Senior Product Data Scientist @
+        <a href="https://github.com/slackhq">Slack</a>
+      </strong>
+      <br><br>
+      <strong>Previously...<br>🔬 PhD Research Engineer @
         <a href="https://github.com/WagnerLab">Stanford Memory Lab</a>
       </strong>
-      <br>&nbsp;&nbsp;• Production neuroimaging infrastructure &amp; data processing pipelines
-      <br><br>
-      <strong>Previously...<br>👨‍💻 ML Data Engineer Intern @
+      <br>&nbsp;&nbsp;• Production neuroimaging infrastructure &amp; data pipelines
+      <strong><br>👨‍💻 ML Quant Research Intern @
         <a href="https://github.com/slackhq">Slack</a>
       </strong>
       <br>&nbsp;&nbsp;• Production ML pipelines serving 100K+ users
