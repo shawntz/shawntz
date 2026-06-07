@@ -7,7 +7,7 @@
       <strong>Currently...<br>👨‍💻 Senior Product Data Scientist @
         <a href="https://github.com/slackhq">Slack</a>
       </strong>
-      <br>&nbsp;&nbsp;• Production neuroimaging infrastructure &amp; data pipelines
+      <br>&nbsp;&nbsp;• Experimentation infrastructure &amp; Slack growth/activation
       <br><br>
       <strong>Previously...<br>🔬 PhD Research Engineer @
         <a href="https://github.com/WagnerLab">Stanford Memory Lab</a>
