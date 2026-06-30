@@ -32,7 +32,7 @@
       • <strong><a href="https://shawnschwartz.com/eyeris">eyeris</a></strong>:
       reproducible pupillometry preprocessing&nbsp;<img src="http://cranlogs.r-pkg.org/badges/grand-total/eyeris?color=brightgreen" /><br />
       • <strong><a href="https://shawnschwartz.com/charisma">charisma</a></strong>:
-      automated color analysis of images&nbsp;<img src="http://cranlogs.r-pkg.org/badges/grand-total/charisma?color=brightgreen" />
+      automated color analysis of images&nbsp;<img src="http://cranlogs.r-pkg.org/badges/grand-total/charisma?color=brightgreen" /><br />
       • <strong><a href="https://shawnschwartz.com/reaborn">reaborn</a></strong>:
       seaborn for R&nbsp;<img src="http://cranlogs.r-pkg.org/badges/grand-total/reaborn?color=brightgreen" />
     </td>
