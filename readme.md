@@ -7,7 +7,7 @@
       <strong>Currently...<br>👨‍💻 Senior Product Data Scientist @
         <a href="https://github.com/slackhq">Slack</a>
       </strong>
-      <br>&nbsp;&nbsp;• Experimentation infrastructure &amp; Slack growth/activation
+      <br>&nbsp;&nbsp;• Experimentation infrastructure &amp; Slack user growth
       <br><br>
       <strong>Previously...<br>🔬 PhD Research Engineer @
         <a href="https://github.com/WagnerLab">Stanford Memory Lab</a>
@@ -17,7 +17,7 @@
       <strong><br>👨‍💻 PhD Quant Research Intern @
         <a href="https://github.com/slackhq">Slack</a>
       </strong>
-      <br>&nbsp;&nbsp;• Production ML pipelines
+      <br>&nbsp;&nbsp;• ML pipelines for end-user segmentation
     </td>
     <td>
       <img
