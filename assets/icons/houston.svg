@@ -1,0 +1,270 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <defs>
+    <!-- Background gradient: deep space blue to purple -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a0533"/>
+      <stop offset="40%" style="stop-color:#2d1b69"/>
+      <stop offset="100%" style="stop-color:#0d1b3e"/>
+    </linearGradient>
+    <!-- Shuttle body gradient -->
+    <linearGradient id="shuttleBody" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#e8e8ec"/>
+      <stop offset="30%" style="stop-color:#ffffff"/>
+      <stop offset="70%" style="stop-color:#f0f0f5"/>
+      <stop offset="100%" style="stop-color:#c8c8d0"/>
+    </linearGradient>
+    <!-- Shuttle belly (heat shield) -->
+    <linearGradient id="shuttleBelly" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#2a2a2a"/>
+      <stop offset="50%" style="stop-color:#3d3d3d"/>
+      <stop offset="100%" style="stop-color:#1a1a1a"/>
+    </linearGradient>
+    <!-- Main flame gradient -->
+    <linearGradient id="flameMain" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff"/>
+      <stop offset="15%" style="stop-color:#ffe44d"/>
+      <stop offset="40%" style="stop-color:#ff8c00"/>
+      <stop offset="70%" style="stop-color:#ff4500"/>
+      <stop offset="100%" style="stop-color:#cc0000;stop-opacity:0"/>
+    </linearGradient>
+    <!-- Inner flame (hot core) -->
+    <linearGradient id="flameCore" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff"/>
+      <stop offset="30%" style="stop-color:#fff8e0"/>
+      <stop offset="60%" style="stop-color:#ffdd57"/>
+      <stop offset="100%" style="stop-color:#ff8c00;stop-opacity:0"/>
+    </linearGradient>
+    <!-- Wing gradient -->
+    <linearGradient id="wingGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#d0d0d8"/>
+      <stop offset="100%" style="stop-color:#8888a0"/>
+    </linearGradient>
+    <!-- Glow effect -->
+    <radialGradient id="exhaustGlow" cx="50%" cy="30%" r="50%">
+      <stop offset="0%" style="stop-color:#ff6600;stop-opacity:0.6"/>
+      <stop offset="100%" style="stop-color:#ff6600;stop-opacity:0"/>
+    </radialGradient>
+    <!-- Star sparkle -->
+    <radialGradient id="starGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#ffffff;stop-opacity:0"/>
+    </radialGradient>
+    <!-- Window reflection -->
+    <linearGradient id="windowGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4dc9f6"/>
+      <stop offset="100%" style="stop-color:#1a73e8"/>
+    </linearGradient>
+    <!-- Rounded square clip for macOS icon shape -->
+    <clipPath id="iconClip">
+      <rect x="0" y="0" width="1024" height="1024" rx="228" ry="228"/>
+    </clipPath>
+  </defs>
+
+  <!-- Icon rounded-rect background -->
+  <g clip-path="url(#iconClip)">
+    <!-- Background -->
+    <rect width="1024" height="1024" fill="url(#bgGrad)"/>
+
+    <!-- Stars scattered -->
+    <circle cx="120" cy="100" r="2.5" fill="white" opacity="0.9"/>
+    <circle cx="890" cy="150" r="2" fill="white" opacity="0.7"/>
+    <circle cx="200" cy="280" r="1.5" fill="white" opacity="0.6"/>
+    <circle cx="830" cy="320" r="3" fill="white" opacity="0.8"/>
+    <circle cx="150" cy="450" r="2" fill="white" opacity="0.5"/>
+    <circle cx="900" cy="500" r="1.5" fill="white" opacity="0.7"/>
+    <circle cx="100" cy="650" r="2" fill="white" opacity="0.4"/>
+    <circle cx="950" cy="680" r="2.5" fill="white" opacity="0.6"/>
+    <circle cx="80" cy="850" r="1.5" fill="white" opacity="0.3"/>
+    <circle cx="960" cy="870" r="2" fill="white" opacity="0.5"/>
+    <circle cx="250" cy="130" r="1.8" fill="white" opacity="0.8"/>
+    <circle cx="750" cy="80" r="2.2" fill="white" opacity="0.9"/>
+    <circle cx="400" cy="60" r="1.5" fill="white" opacity="0.7"/>
+    <circle cx="650" cy="180" r="2" fill="white" opacity="0.6"/>
+    <circle cx="300" cy="400" r="1.8" fill="white" opacity="0.4"/>
+    <circle cx="720" cy="450" r="1.5" fill="white" opacity="0.5"/>
+
+    <!-- Larger sparkle stars -->
+    <g opacity="0.9">
+      <ellipse cx="180" cy="180" rx="4" ry="1" fill="white"/>
+      <ellipse cx="180" cy="180" rx="1" ry="4" fill="white"/>
+    </g>
+    <g opacity="0.7">
+      <ellipse cx="860" cy="250" rx="3" ry="0.8" fill="white"/>
+      <ellipse cx="860" cy="250" rx="0.8" ry="3" fill="white"/>
+    </g>
+
+    <!-- Exhaust glow behind shuttle -->
+    <ellipse cx="512" cy="780" rx="180" ry="280" fill="url(#exhaustGlow)"/>
+
+    <!-- ===== MAIN EXHAUST FLAMES ===== -->
+    <!-- Outer flame (wide, red-orange) -->
+    <path d="M 462 680
+             Q 450 750, 440 800
+             Q 420 870, 430 920
+             Q 450 970, 512 1000
+             Q 574 970, 594 920
+             Q 604 870, 584 800
+             Q 574 750, 562 680
+             Z"
+          fill="url(#flameMain)" opacity="0.9"/>
+
+    <!-- Middle flame -->
+    <path d="M 475 680
+             Q 468 730, 460 780
+             Q 450 840, 465 890
+             Q 480 940, 512 960
+             Q 544 940, 559 890
+             Q 574 840, 564 780
+             Q 556 730, 549 680
+             Z"
+          fill="url(#flameCore)" opacity="0.95"/>
+
+    <!-- Inner flame (bright white core) -->
+    <path d="M 490 680
+             Q 485 720, 480 760
+             Q 475 810, 490 850
+             Q 500 880, 512 895
+             Q 524 880, 534 850
+             Q 549 810, 544 760
+             Q 539 720, 534 680
+             Z"
+          fill="white" opacity="0.8"/>
+
+    <!-- Side flame wisps (left) -->
+    <path d="M 455 690 Q 420 750, 410 790 Q 400 830, 420 850 Q 440 830, 445 790 Q 448 750, 460 700 Z"
+          fill="#ff6600" opacity="0.5"/>
+    <!-- Side flame wisps (right) -->
+    <path d="M 569 690 Q 604 750, 614 790 Q 624 830, 604 850 Q 584 830, 579 790 Q 576 750, 564 700 Z"
+          fill="#ff6600" opacity="0.5"/>
+
+    <!-- ===== SHUTTLE BODY ===== -->
+    <!-- Main fuselage -->
+    <path d="M 512 100
+             C 512 100, 530 105, 545 130
+             C 565 165, 575 220, 580 280
+             C 585 340, 585 420, 582 500
+             C 580 560, 575 620, 570 660
+             L 570 690
+             L 454 690
+             L 454 660
+             C 449 620, 444 560, 442 500
+             C 439 420, 439 340, 444 280
+             C 449 220, 459 165, 479 130
+             C 494 105, 512 100, 512 100
+             Z"
+          fill="url(#shuttleBody)" stroke="#aaa" stroke-width="1.5"/>
+
+    <!-- Dark belly panel -->
+    <path d="M 480 350
+             C 478 420, 478 500, 480 570
+             L 480 680
+             L 544 680
+             L 544 570
+             C 546 500, 546 420, 544 350
+             C 542 300, 536 260, 530 240
+             L 512 220
+             L 494 240
+             C 488 260, 482 300, 480 350
+             Z"
+          fill="url(#shuttleBelly)" opacity="0.25"/>
+
+    <!-- Nose cone highlight -->
+    <path d="M 512 105
+             C 505 110, 498 125, 492 145
+             C 486 170, 482 200, 480 230
+             C 495 200, 505 170, 510 140
+             C 512 125, 512 110, 512 105
+             Z"
+          fill="white" opacity="0.6"/>
+
+    <!-- Cockpit windows -->
+    <ellipse cx="512" cy="210" rx="18" ry="24" fill="url(#windowGrad)" stroke="#333" stroke-width="2"/>
+    <ellipse cx="512" cy="210" rx="12" ry="16" fill="none" stroke="rgba(255,255,255,0.4)" stroke-width="1"/>
+    <!-- Window shine -->
+    <ellipse cx="506" cy="203" rx="5" ry="7" fill="white" opacity="0.4"/>
+
+    <!-- Secondary windows -->
+    <ellipse cx="512" cy="270" rx="12" ry="14" fill="url(#windowGrad)" stroke="#333" stroke-width="1.5" opacity="0.9"/>
+    <ellipse cx="512" cy="320" rx="10" ry="12" fill="url(#windowGrad)" stroke="#333" stroke-width="1.5" opacity="0.8"/>
+
+    <!-- ===== WINGS ===== -->
+    <!-- Left wing -->
+    <path d="M 454 520
+             L 440 540
+             L 340 620
+             L 310 650
+             L 320 665
+             L 370 655
+             L 440 630
+             L 458 610
+             Z"
+          fill="url(#wingGrad)" stroke="#999" stroke-width="1.5"/>
+    <!-- Left wing detail stripe -->
+    <path d="M 445 545 L 350 625 L 360 635 L 450 560 Z" fill="#666" opacity="0.3"/>
+
+    <!-- Right wing -->
+    <path d="M 570 520
+             L 584 540
+             L 684 620
+             L 714 650
+             L 704 665
+             L 654 655
+             L 584 630
+             L 566 610
+             Z"
+          fill="url(#wingGrad)" stroke="#999" stroke-width="1.5"/>
+    <!-- Right wing detail stripe -->
+    <path d="M 579 545 L 674 625 L 664 635 L 574 560 Z" fill="#666" opacity="0.3"/>
+
+    <!-- ===== TAIL FIN ===== -->
+    <!-- Vertical stabilizer -->
+    <path d="M 508 380
+             L 512 340
+             L 516 380
+             L 520 500
+             L 525 540
+             L 530 560
+             L 525 570
+             L 512 575
+             L 499 570
+             L 494 560
+             L 499 540
+             L 504 500
+             Z"
+          fill="#d8d8e0" stroke="#999" stroke-width="1" opacity="0.7"/>
+
+    <!-- ===== ENGINE NOZZLES ===== -->
+    <!-- Main nozzle cluster -->
+    <ellipse cx="512" cy="690" rx="40" ry="12" fill="#555" stroke="#333" stroke-width="2"/>
+    <ellipse cx="512" cy="688" rx="32" ry="8" fill="#222"/>
+    <ellipse cx="512" cy="686" rx="24" ry="5" fill="#ff8c00" opacity="0.6"/>
+
+    <!-- Side nozzles -->
+    <ellipse cx="480" cy="688" rx="10" ry="6" fill="#444" stroke="#333" stroke-width="1"/>
+    <ellipse cx="544" cy="688" rx="10" ry="6" fill="#444" stroke="#333" stroke-width="1"/>
+
+    <!-- ===== DETAIL MARKINGS ===== -->
+    <!-- USA-style stripe on fuselage -->
+    <rect x="490" y="400" width="44" height="6" rx="3" fill="#cc0000" opacity="0.7"/>
+    <rect x="493" y="420" width="38" height="4" rx="2" fill="#1a3a7a" opacity="0.6"/>
+
+    <!-- Panel lines -->
+    <line x1="470" y1="350" x2="470" y2="650" stroke="#ccc" stroke-width="0.5" opacity="0.4"/>
+    <line x1="554" y1="350" x2="554" y2="650" stroke="#ccc" stroke-width="0.5" opacity="0.4"/>
+
+    <!-- ===== SMOKE/CLOUD AT BASE ===== -->
+    <g opacity="0.6">
+      <ellipse cx="400" cy="920" rx="120" ry="60" fill="white" opacity="0.3"/>
+      <ellipse cx="620" cy="930" rx="130" ry="55" fill="white" opacity="0.25"/>
+      <ellipse cx="512" cy="940" rx="160" ry="70" fill="white" opacity="0.35"/>
+      <ellipse cx="350" cy="960" rx="100" ry="50" fill="white" opacity="0.2"/>
+      <ellipse cx="680" cy="955" rx="110" ry="45" fill="white" opacity="0.2"/>
+    </g>
+
+    <!-- Speed lines / motion streaks -->
+    <line x1="300" y1="200" x2="280" y2="350" stroke="white" stroke-width="1.5" opacity="0.15"/>
+    <line x1="720" y1="180" x2="740" y2="330" stroke="white" stroke-width="1.5" opacity="0.15"/>
+    <line x1="250" y1="400" x2="230" y2="520" stroke="white" stroke-width="1" opacity="0.1"/>
+    <line x1="770" y1="380" x2="790" y2="500" stroke="white" stroke-width="1" opacity="0.1"/>
+  </g>
+</svg>
