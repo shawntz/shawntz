@@ -55,12 +55,16 @@
       <stop offset="100%" style="stop-color:#1a73e8"/>
     </linearGradient>
     <!-- Rounded square clip for macOS icon shape -->
+    <filter id="iconShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="22" stdDeviation="34" flood-color="#000" flood-opacity="0.38"/>
+    </filter>
     <clipPath id="iconClip">
       <rect x="0" y="0" width="1024" height="1024" rx="228" ry="228"/>
     </clipPath>
   </defs>
 
   <!-- Icon rounded-rect background -->
+  <g transform="translate(82 82) scale(0.84)" filter="url(#iconShadow)">
   <g clip-path="url(#iconClip)">
     <!-- Background -->
     <rect width="1024" height="1024" fill="url(#bgGrad)"/>
@@ -266,5 +270,6 @@
     <line x1="720" y1="180" x2="740" y2="330" stroke="white" stroke-width="1.5" opacity="0.15"/>
     <line x1="250" y1="400" x2="230" y2="520" stroke="white" stroke-width="1" opacity="0.1"/>
     <line x1="770" y1="380" x2="790" y2="500" stroke="white" stroke-width="1" opacity="0.1"/>
+  </g>
   </g>
 </svg>
