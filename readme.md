@@ -21,31 +21,31 @@
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
 <!-- iOS apps -->
-<h3><img src="./assets/labels/ios-apps-header.svg" alt="iOS apps" height="36" /></h3>
+<!-- <h3><img src="./assets/labels/ios-apps-header.svg" alt="iOS apps" height="36" /></h3> -->
 
-<p>
+<!-- <p>
   <a href="https://aeromail.ai"><img src="./assets/icons/aero.png" alt="Aero" height="100" /></a>&nbsp;&nbsp;&nbsp;
   <a href="https://carbonapp.co"><img src="./assets/icons/carbon.png" alt="Carbon" height="100" /></a>&nbsp;&nbsp;&nbsp;
   <a href="https://never-late.app"><img src="./assets/icons/neverlate.png" alt="NeverLate" height="100" /></a>
-</p>
+</p> -->
 
 <!-- Mac apps -->
-<h3><img src="./assets/labels/mac-apps-header.svg" alt="Mac apps" height="36" /></h3>
+<!-- <h3><img src="./assets/labels/mac-apps-header.svg" alt="Mac apps" height="36" /></h3> -->
 
-<p>
+<!-- <p>
   <a href="https://aeromail.ai"><img src="./assets/icons/aero.png" alt="Aero" height="100" /></a>&nbsp;&nbsp;&nbsp;
   <a href="https://houstonmac.app"><img src="./assets/icons/houston.svg" alt="Houston" height="100" /></a>&nbsp;&nbsp;&nbsp;
   <a href="https://apps.apple.com/us/app/corgi-jump-space-pup/id6814085989"><img src="./assets/icons/corgi-jump.png" alt="Corgi Jump" height="100" /></a>
-</p>
+</p> -->
 
 <!-- R packages -->
-<h3><img src="./assets/labels/r-packages-header.svg" alt="R packages" height="36" /></h3>
+<!-- <h3><img src="./assets/labels/r-packages-header.svg" alt="R packages" height="36" /></h3> -->
 
-<p>
+<!-- <p>
   <a href="https://eyeris.shawnschwartz.com"><img src="https://eyeris.shawnschwartz.com/logo.png" alt="eyeris" height="100" /></a>&nbsp;&nbsp;
   <a href="https://charisma.shawnschwartz.com"><img src="https://charisma.shawnschwartz.com/logo.png" alt="charisma" height="100" /></a>&nbsp;&nbsp;
   <a href="https://reaborn.org"><img src="https://reaborn.org/logo.png" alt="reaborn" height="100" /></a>
-</p>
+</p> -->
 
 <!-- **App & web frameworks**
 
